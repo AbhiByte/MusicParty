@@ -1,3 +1,53 @@
 venv
 .vscode
 music_controller/client/node_modules
+music_controller/client/package-lock.json
+music_controller/client/package.json
+music_controller/client/babel.config.json
+music_controller/client/webpack.config.js
+
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+
+.idea
+*.rdb
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+__pycache__/
+
+
